@@ -3,10 +3,12 @@ name = "une"
 version = "0.1.0"
 edition = "2024"
 
-[[tests]]
-name = "main"
-path = "tests/main.rs"
+[[test]]
+name = "window"
+path = "tests/window.rs"
 harness = false
 
 
 [dependencies]
+winit = "0.30.12"
+paste = "1.0.15"
